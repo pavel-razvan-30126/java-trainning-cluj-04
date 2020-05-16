@@ -13,7 +13,7 @@ public class Main {
         while (c != -1) {
             if (c > 64 && c < 91 && c != 88) //Between A and Z & !=X
             {
-                System.out.print(String.valueOf((char) c));
+                System.out.print((char) c);
             }
             if (c == 88) {
                 System.out.print(" ");
